@@ -1,0 +1,1 @@
+export const scannedCodes = new Set<string>();
