@@ -1,4 +1,3 @@
-fe-ecorecicla
 terraform
 
 # General
@@ -7,6 +6,8 @@ terraform
 **/__pycache__
 **/.venv
 **/temp.jpg
+**/.next
+**/build
 
 # Expo
 app-ecorecicla/.expo/
