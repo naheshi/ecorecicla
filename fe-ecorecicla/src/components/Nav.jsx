@@ -70,7 +70,7 @@ export default function Navbar() {
 
     {/* Sidebar */}
 <div
-  className={`fixed top-0 right-0 h-full w-64  bg-white shadow-lg transform ${
+  className={`fixed top-0 right-0 h-full w-64  bg-white shadow-lg  transform ${
     isSidebarOpen ? "translate-x-0" : "translate-x-full"
   } transition-transform duration-300 ease-in-out z-50`}
 >
@@ -124,12 +124,14 @@ export default function Navbar() {
 
 
       {/* Overlay para cerrar sidebar al tocar fuera */}
-      {isSidebarOpen && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-30 z-40"
-          onClick={toggleSidebar}
-        />
-      )}
+     {isSidebarOpen && (
+  <div
+    className="fixed inset-0 bg-black z-40"
+    style={{ opacity: 0.85 }}
+    onClick={toggleSidebar}
+  />
+)}
+
     </>
   );
 }
