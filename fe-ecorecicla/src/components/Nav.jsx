@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20 w-full">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src="/Eco2.png" className="h-20 w-auto object-contain" />
+            <img src="/Eco2.png" className="h-15 w-auto object-contain" />
           </div>
 
           {/* Botones + icono */}

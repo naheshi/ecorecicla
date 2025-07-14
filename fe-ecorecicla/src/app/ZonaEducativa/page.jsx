@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Navbar from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 export default function ZonaEducativa() {
   const [expandedCard, setExpandedCard] = useState(null);
@@ -152,7 +153,9 @@ export default function ZonaEducativa() {
             </div>
           </div>
         </section>
+       
       </main>
+       <Footer/>
     </div>
   );
 }
