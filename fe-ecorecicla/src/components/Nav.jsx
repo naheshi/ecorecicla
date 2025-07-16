@@ -98,7 +98,7 @@ export default function Navbar() {
     href="/Novedades"
     className="bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
   >
-    Novedades Verdes
+    Referidos
   </Link>
   <Link
     href="/ZonaEducativa"
