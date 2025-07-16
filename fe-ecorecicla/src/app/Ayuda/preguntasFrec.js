@@ -15,7 +15,7 @@ const categories = [
     title: "Escaneo de Botellas y Puntos",
     icon: "📷",
     faqs: [
-      { question: "¿Cómo escanear botellas?", answer: "Abre el App y muestra el QR a la máquina para iniciar sesión, luego escanea las botellas en la camara de la máquina y recibe tus puntos." },
+      { question: "¿Cómo escanear botellas?", answer: "Abre la app y muestra el QR a la máquina para iniciar sesión, luego escanea las botellas en la cámara de la máquina y recibe tus puntos." },
       { question: "¿Cuántos puntos vale una botella?", answer: "Depende del tipo, pero usualmente entre 5 y 10 puntos." }
     ],
   },
@@ -24,15 +24,19 @@ const categories = [
     title: "Recompensas y Canje",
     icon: "🎁",
     faqs: [
-      { question: "¿Cómo canjeo mis puntos?", answer: "Ve a la sección de recompensas y elige una disponible." }
+      { question: "¿Cómo canjeo mis puntos?", answer: "Ve a la sección de recompensas y elige una disponible." },
+      { question: "¿Cuánto tiempo tengo para canjear mis puntos?", answer: "Los puntos son válidos por un año desde que se acumulan." }
     ],
   },
   {
-    key: "consulta",
-    title: "Realizar Consulta",
-    icon: "❓",
+    key: "general",
+    title: "Preguntas Generales",
+    icon: "♻️",
     faqs: [
-      { question: "¿Cómo enviar una consulta?", answer: "Desde la app, ve a 'Ayuda' y selecciona 'Realizar consulta'." }
+      { question: "¿Qué tipo de botellas puedo reciclar?", answer: "Puedes reciclar botellas plásticas PET de 500ml transparentes y de colores, siempre limpias y sin tapa." },
+      { question: "¿Dónde están ubicadas las máquinas de reciclaje?", answer: "Las máquinas están ubicadas en centros comerciales, parques y Universidades." },
+      { question: "¿Cómo sé cuántos puntos tengo acumulados?", answer: "Puedes consultar tu saldo de puntos en la app o en la pantalla de la máquina después de escanear tus botellas." },
+      { question: "¿Qué puedo obtener con mis puntos?", answer: "Puedes canjear tus puntos por productos ecológicos y descuentos en tiendas asociadas." }
     ],
   },
 ];
