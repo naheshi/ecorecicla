@@ -40,19 +40,15 @@ export default function ZonaEducativa() {
               </div>
 
               <h3 className="text-xl font-semibold mt-8 mb-4 text-green-800">
-                Uso de máquina
+                Reciclaje de plástico 
               </h3>
               <div className="aspect-video w-full max-w-md rounded-lg shadow-lg overflow-hidden mx-auto lg:mx-0">
-                <iframe
-                  width="500"
-                  height="315"
-                  src="https://www.youtube.com/embed/d84Sbs5IVzc?si=4OmsQ2NBS75RH-sk"
-                  title="YouTube video"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/cCOfCFzQvCc?si=LmwYn4f_W6pfXHuK"
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                 referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
               </div>
             </div>
 
