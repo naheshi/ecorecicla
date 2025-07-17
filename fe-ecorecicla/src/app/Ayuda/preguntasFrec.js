@@ -1,4 +1,3 @@
-// app/data/preguntasFrec.js
 
 const categories = [
   {

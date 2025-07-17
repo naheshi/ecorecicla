@@ -22,32 +22,32 @@ export default function Navbar() {
           <div className="flex items-center space-x-4 ml-auto">
             <Link
               href="/Home"
-              className="text-black bg-gray-100 hover:bg-gray-200 rounded-lg px-4 py-2 transition duration-300"
+              className="text-black bg-white hover:bg-gray-200 rounded-lg px-4 py-2 transition duration-300"
             >
               Home
             </Link>
             <Link
               href="/Perfil"
-              className="text-black bg-gray-100 hover:bg-gray-200 rounded-lg px-4 py-2 transition duration-300"
+              className="text-black bg-white hover:bg-gray-200 rounded-lg px-4 py-2 transition duration-300"
             >
               Perfil
             </Link>
             <Link
               href="/Tienda"
-              className="text-black bg-gray-100 hover:bg-gray-200 rounded-lg px-4 py-2 transition duration-300"
+              className="text-black bg-white hover:bg-gray-200 rounded-lg px-4 py-2 transition duration-300"
             >
               Tienda
             </Link>
 
             <Link
               href="/Ranking"
-              className="text-black bg-gray-100 hover:bg-gray-200 rounded-lg px-4 py-2 transition duration-300"
+              className="text-black bg-white hover:bg-gray-200 rounded-lg px-4 py-2 transition duration-300"
             >
               Ranking
             </Link>
             <button
               onClick={toggleSidebar}
-              className="bg-gray-100 hover:bg-gray-200 p-2 rounded-lg transition duration-300"
+              className="bg-white hover:bg-gray-200 p-2 rounded-lg transition duration-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,25 +96,25 @@ export default function Navbar() {
 <nav className="flex flex-col px-4 pt-2 space-y-2">
   <Link
     href="/Novedades"
-    className="bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
+    className="bg-white hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
   >
     Referidos
   </Link>
   <Link
     href="/ZonaEducativa"
-    className="bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
+    className="bg-white hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
   >
     Zona Educativa
   </Link>
   <Link
     href="/Mapa"
-    className="bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
+    className="bg-white hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
   >
     Mapa
   </Link>
   <Link
     href="/Ayuda"
-    className="bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
+    className="bg-white hover:bg-gray-200 text-black px-4 py-2 rounded-lg transition duration-200 shadow-sm"
   >
     Ayuda
   </Link>
