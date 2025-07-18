@@ -1,24 +1,13 @@
 import React from 'react'
 import Navbar from '@/components/Nav'
 import Footer from '@/components/Footer'
+import Carousel from '@/components/Carousel' // nuevo
 
 const HomePage = () => {
   return (
     <main className="flex flex-col min-h-screen bg-white overflow-x-hidden">
-
       <Navbar />
-
-      <section
-        className="text-white py-36 px-6 bg-[url('/fondo-reciclaje.png')] bg-cover bg-center"
-      >
-        <h1 className="text-9xl md:text-5xl font-bold mb-4 ml-10">RECICLA PA' LA RACHA</h1>
-        <p className="text-lg md:text-lg lg:text-xl text-justify ml-10 mb-8 max-w-lg drop-shadow-md">
-          Tus acciones cuentan. Al reciclar, cuidas el planeta, reduces residuos y construyes un futuro más limpio.
-        </p>
-        <button className="bg-white text-green-900 text-base md:text-base px-6 py-3 font-semibold rounded-md hover:bg-green-300 transition ml-10">
-          CONOCE MÁS
-        </button>
-      </section>
+      <Carousel />
 
       <section className="py-10 px-4 bg-white text-center">
         <h2 className="text-4xl font-extrabold mb-12">¿Por qué Reciclar con Nosotros?</h2>
