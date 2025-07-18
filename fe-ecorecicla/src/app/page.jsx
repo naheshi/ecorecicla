@@ -1,8 +1,7 @@
-// app/page.jsx
 import React from 'react'
 import Navbar from "@/components/Nav";
 
-export default function Home() {
+const Home = () => {
   return (
     <main>
       <Navbar />
@@ -10,3 +9,5 @@ export default function Home() {
     </main>
   )
 }
+
+export default Home
