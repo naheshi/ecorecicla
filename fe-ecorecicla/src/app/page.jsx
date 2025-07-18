@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from "@/components/Nav";
+import HomePage from './Home/page'
 
 const Home = () => {
   return (
     <main>
-      <Navbar />
-      <div className='w-full h-full'>Pagina Home</div>
+     <HomePage/>
     </main>
   )
 }

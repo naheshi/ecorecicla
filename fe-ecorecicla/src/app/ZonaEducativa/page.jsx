@@ -48,7 +48,7 @@ export default function ZonaEducativa() {
                 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                  referrerPolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe>
+                allowFullScreen></iframe>
               </div>
             </div>
 
@@ -60,7 +60,7 @@ export default function ZonaEducativa() {
               <div className="grid grid-cols-1 gap-4">
                 {/* Card 1 */}
                 <div
-                  className={`relative bg-green-50 border border-green-200 rounded-lg p-5 shadow-md transition-all duration-1500 ${
+                  className={`relative bg-green-100 border border-green-300 rounded-lg p-5 shadow-md transition-all duration-1500 ${
                     expandedCard === 0 ? "h-auto" : "min-h-[180px]"
                   }`}
                 >
@@ -90,7 +90,7 @@ export default function ZonaEducativa() {
 
                 {/* Card 2 */}
                 <div
-                  className={`relative bg-lime-50 border border-lime-200 rounded-lg p-5 shadow-md transition-all duration-500 ${
+                  className={`relative bg-lime-100 border border-lime-200 rounded-lg p-5 shadow-md transition-all duration-500 ${
                     expandedCard === 1 ? "h-auto" : "min-h-[180px]"
                   }`}
                 >
@@ -119,7 +119,7 @@ export default function ZonaEducativa() {
 
                 {/* Card 3 */}
                 <div
-                  className={`relative bg-emerald-50 border border-emerald-200 rounded-lg p-5 shadow-md transition-all duration-500 ${
+                  className={`relative bg-orange-100 border border-orange-200 rounded-lg p-5 shadow-md transition-all duration-500 ${
                     expandedCard === 2 ? "h-auto" : "min-h-[180px]"
                   }`}
                 >
